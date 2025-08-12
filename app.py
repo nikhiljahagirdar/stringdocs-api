@@ -57,10 +57,7 @@ app = FastAPI(
 # app.add_middleware(BaseHTTPMiddleware, dispatch=SerializeJSONMiddleware)
 
 origins = [
-    "http://localhost",
-    "http://localhost:8080",
-    "http://localhost:3000",
-    "http://localhost:5173",
+    "*"
 ]
 
 
